@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app_dental_condition.apps.AppDentalConditionConfig'
+    'app_dental_condition.apps.AppDentalConditionConfig',
+    'app_main_menu.apps.AppMainMenuConfig'
 ]
 
 MIDDLEWARE = [

@@ -23,4 +23,5 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('review/', include('app_dental_condition.urls')),
-]  + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    path('', include('app_main_menu.urls')),
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
