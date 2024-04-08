@@ -1,8 +1,9 @@
 /*
-.МЕНЮ.
+.НАЧАЛО_МЕНЮ.
 1. Сброс стилей.
 2. Общие и простые классы для стилизации.
-3. Модули. В разработке
+3. Главное меню.
+4. Модули. В разработке
 .КОНЕЦ_МЕНЮ.
 */
 
@@ -56,8 +57,48 @@ table {
 /* */
 /* 2. Общие и простые классы для стилизации. */
 /* */
+
 .flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* */
+/* 3. Главное меню. */
+/* */
+
+.header-top {
+    color: #4e4e4e;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.top-menu-li {
+    margin-right: 40px;
+}
+
+.top-menu-a-button {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #c3efc0;
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    width: 200px;
+    color: #333333;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.top-menu-a-button:hover {
+    background-color: #ff6699;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(255 0 0 / 70%), 0 0 20px rgb(255 255 255 / 70%), 0 0 30px rgb(255 0 0 / 70%);
+    transform: translateX(5px);
+
 }

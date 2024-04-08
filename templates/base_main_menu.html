@@ -3,19 +3,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>{{title}}</title>
-	<link type="text/css" href="{% static 'css/style.css' %}" rel="stylesheet" />
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link type="text/css" href="{% static 'css/style.css' %}" rel="stylesheet"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<div class="top-menu flex-center">
-    <div class="top-menu-midl flex-center">
-        <h1>Записи сегодня</h1>
-        <h1>Календарь</h1>
-        <h1>Администрирование</h1>
+<div class="header-top">
+    <div class="top-menu flex-center">
+        <div class="top-menu-midl flex-center">
+            <ul class="flex-center">
+                <li class="top-menu-li"><a class="top-menu-a-button" href="">Записи сегодня</a></li>
+                <li class="top-menu-li"><a class="top-menu-a-button" href="">Календарь</a></li>
+                <li class="top-menu-li"><a class="top-menu-a-button" href="">Администрирование</a></li>
+            </ul>
+        </div>
     </div>
 </div>
+
 {% block content %}
 {% endblock %}
 </body>
