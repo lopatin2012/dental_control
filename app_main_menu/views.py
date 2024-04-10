@@ -10,7 +10,7 @@ class MainMenu(View):
     def get(self, request):
         start_template = 'main_menu/main.html'
         context = {
-            'title': "Состояние зубов"
+            'title': "Состояние зубов",
         }
         return render(request=request, template_name=start_template, context=context)
 

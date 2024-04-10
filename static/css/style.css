@@ -64,6 +64,10 @@ table {
     align-items: center;
 }
 
+body {
+    background-color: #f2f4f6;
+}
+
 /* */
 /* 3. Главное меню. */
 /* */
@@ -72,7 +76,8 @@ table {
     color: #4e4e4e;
     width: 100%;
     font-size: 20px;
-    padding-top: 20px;
+    padding: 20px;
+    background-color: azure;
 }
 
 .top-menu-li {
@@ -102,3 +107,22 @@ table {
     transform: translateX(5px);
 
 }
+
+.body-title {
+    margin: 20px;
+    padding: 20px;
+}
+
+.body-title-text {
+    background-color: skyblue;
+    border-radius: 20px;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
+.body-main-menu {
+    background-color: lightgray;
+    border-radius: 20px;
+    margin: 0px 20px;
+}
+
