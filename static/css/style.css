@@ -64,6 +64,12 @@ table {
     align-items: center;
 }
 
+.flex-start {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 body {
     background-color: #f2f4f6;
 }
@@ -126,3 +132,24 @@ body {
     margin: 0px 20px;
 }
 
+/* Зубы */
+.upper-incisor {
+    background-color: azure;
+    padding: 23px 18px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.posterior-incisor {
+    background-color: azure;
+    padding: 23px 15px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.fang {
+    background-color: azure;
+    padding: 22px 11px;
+    border-radius: 15px;
+    margin: 3px;
+}
