@@ -1,0 +1,35 @@
+/* Зубы */
+.upper-incisor {
+    background-color: azure;
+    padding: 23px 18px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.posterior-incisor {
+    background-color: azure;
+    padding: 23px 15px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.fang {
+    background-color: azure;
+    padding: 22px 11px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.first-premolar {
+    background-color: azure;
+    padding: 22px 18;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.second-premolar {
+    background-color: azure;
+    padding: 22px 18px;
+    border-radius: 15px;
+    margin: 3px;
+}
